@@ -7,7 +7,7 @@ Ela retorna resultados com os valores passados por parâmetro
 ```md
  http://localhost/subtracao/2&2
  ```
-* limite 2 números
+* limite 2 números passados por parâmetro
 
 ## Todos os parâmetros
 ### Subtraçãoo
