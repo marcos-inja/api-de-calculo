@@ -42,4 +42,4 @@ app.use(express.json())
 let PORTA = 8000
 app.listen(PORTA, () => {
     console.log(`Rodando em http://localhost:${PORTA}/`);
-})
+})aaaa
