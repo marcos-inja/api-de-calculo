@@ -16,7 +16,7 @@ Ela retorna resultados com os valores passados por parâmetro
  ```
 ### Soma
  ```md
- http://localhost/soma/:n1&:n2
+ http://localhost/soma/:n1/:n2
  ```
 ### MUltiplicação
  ```md
