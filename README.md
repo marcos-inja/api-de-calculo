@@ -5,14 +5,14 @@
 Ela retorna resultados com os valores passados por parâmetro
 > Exemplo: 
 ```md
- http://localhost/subtracao/2&2
+ http://localhost/subtracao/2/2
  ```
 * limite 2 números passados por parâmetro
 
 ## Todos os parâmetros
 ### Subtraçãoo
 ```md
- http://localhost/subtracao/:n1&:n2
+ http://localhost/subtracao/:n1/:n2
  ```
 ### Soma
  ```md
@@ -20,15 +20,15 @@ Ela retorna resultados com os valores passados por parâmetro
  ```
 ### MUltiplicação
  ```md
- http://localhost/multiplicacao/:n1&:n2
+ http://localhost/multiplicacao/:n1/:n2
  ```
  ### Divisão
  ```md
- http://localhost/divisao/:n1&:n2
+ http://localhost/divisao/:n1/:n2
  ```
   ### Potência
  ```md
- http://localhost/potencia/:n1&:n2
+ http://localhost/potencia/:n1/:n2
  ```
  ## Depedencias
 
