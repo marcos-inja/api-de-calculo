@@ -15,7 +15,7 @@ app.use(express.json())
             })
     })
 
-    app.get('/soma/:n1/n2', (req, res) => {
+    app.get('/soma/:n1/:n2', (req, res) => {
         return res.json({ 
                 resultado: calc.soma(req.params.n1, req.params.n2)
             })
