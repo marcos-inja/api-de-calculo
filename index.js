@@ -33,6 +33,12 @@ app.use(express.json())
             })
     })
 
+    app.get('/potencia/:n1&:n2', (req, res) => {
+        return res.json({
+                resultado: calc.pot(req.params.n1, req.params.n2)
+            })
+    })
+
 let PORTA = 8000
 app.listen(PORTA, () => {
     console.log(`Rodando em http://localhost:${PORTA}/`);

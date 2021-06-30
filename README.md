@@ -26,6 +26,10 @@ Ela retorna resultados com os valores passados por parâmetro
  ```md
  http://localhost/divisao/:n1&:n2
  ```
+  ### Potência
+ ```md
+ http://localhost/potencia/:n1&:n2
+ ```
  ## Depedencias
 
  `Express` 
