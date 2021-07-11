@@ -5,8 +5,12 @@ const calc = require(path.join(__dirname,"src/calc"))
 
 app.use(express.json())
 
-//Rota principal com o arquivos estatico html
-    app.use(express.static(path.join(__dirname, "client")))
+//Rota principal com o arquivos para a pagina html
+    app.use("/static", express.static(path.resolve(__dirname, "frontend", "static")))
+
+    app.get("/", (req, res) => {
+        res.sendFile(path.resolve(__dirname, "frontend", "index.html"))
+    })
 
 //Rotas usadas para os calculos
     app.get('/multiplicacao/:n1/:n2', (req, res) => {
