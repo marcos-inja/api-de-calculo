@@ -1,15 +1,23 @@
 const express = require('express')
 const app = express()
-const path = require("path")
-const calc = require(path.join(__dirname,"src/calc"))
+const path = require('path')
+const calc = require(path.join(__dirname,'src/calc'))
 
 app.use(express.json())
 
 //Rota principal com o arquivos para a pagina html
-    app.use("/static", express.static(path.resolve(__dirname, "frontend", "static")))
+    app.use('/static', express.static(path.resolve(__dirname, 'frontend', 'static')))
 
-    app.get("/", (req, res) => {
-        res.sendFile(path.resolve(__dirname, "frontend", "index.html"))
+    app.get('/', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'frontend', 'index.html'))
+    })
+
+    app.get('/sobre', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'frontend', 'index.html'))
+    })
+
+    app.get('/documentacao', (req, res) => {
+        res.sendFile(path.resolve(__dirname, 'frontend', 'index.html'))
     })
 
 //Rotas usadas para os calculos
