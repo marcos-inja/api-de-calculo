@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Page App</title>
     <link rel="stylesheet" href="/static/css/index.css">
 </head>
+
 <body>
     <nav class="nav">
-        <a href="/" class="nav__link" data-link>Página inicial</a>
-        <a href="/documentacao" class="nav__link" data-link>Documentação</a>
-        <a href="/sobre" class="nav__link" data-link>Sobre</a>
+        <div class="cont">
+            <a href="/" class="nav__link" data-link>Home</a>
+            <a href="/documentacao" class="nav__link" data-link>Documentação</a>
+            <a href="/sobre" class="nav__link" data-link>Sobre</a>
+        </div>
     </nav>
+
     <div id="app"></div>
     <script type="module" src="/static/js/index.js"></script>
 </body>
+
 </html>
