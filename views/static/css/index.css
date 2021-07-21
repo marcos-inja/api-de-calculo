@@ -1,9 +1,14 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
     font-size: 18px;
-    width: 100vw;
-    text-align: center;
+    
 }
 
 .nav {
@@ -30,9 +35,15 @@ body {
 }
 
 #app {
-    margin: 2em;
+    
     line-height: 1.5;
     font-weight: 500;
+    width: 100%;
+}
+
+.conteiner {
+    margin: auto;
+    width: 1100px;
 }
 
 a {

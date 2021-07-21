@@ -8,6 +8,7 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
+        <div class="conteiner">
             <h1>Página inicial</h1>
             <p>
                 Projeto de api rest de cálculo.
@@ -16,7 +17,7 @@ export default class extends AbstractView {
             <p>
                 Marcos Vinicius.
             </p>
-            
+        </div>
         `
     }
 }

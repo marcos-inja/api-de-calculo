@@ -8,8 +8,10 @@ export default class extends AbstractView {
 
     async getHtml() {
         return `
+        <div class="conteiner">
             <h1>Sobre</h1>
             <p>Informações sobre o autor.</p>
+        </div>
         `
     }
 }
