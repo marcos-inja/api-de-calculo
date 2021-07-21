@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const routerCalc = require('./routes/calc')
-let PORTA = 8000
+let PORT = 8000
 
 
 //Rotas principais com os arquivos para a pagina html
@@ -23,6 +23,6 @@ app.get('/documentacao', (req, res) => {
 app.use(routerCalc)
 
 
-app.listen(PORTA, () => {
-    console.log(`Rodando em http://localhost:${PORTA}/`);
+app.listen(PORT, () => {
+    console.log(`Rodando em http://localhost:${PORT}/`);
 })
