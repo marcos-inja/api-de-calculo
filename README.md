@@ -35,9 +35,9 @@ Ela retorna resultados com os valores passados por parâmetro
  `Express` 
  * Use: 
  ```md
-    npm install express
-    ou
     npm install
+    ou
+    yarn install
  ```
  ## Para rodar
 
