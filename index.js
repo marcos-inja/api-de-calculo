@@ -22,7 +22,7 @@ app.get('/documentacao', (req, res) => {
 //Rotas usadas para os calculos
 app.use(routerCalc)
 
-app.use(function (req, res, next) {
+app.use((req, res, next) => {
     res.status(404).send("Url não encontrada")
 })
 
