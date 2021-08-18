@@ -34,4 +34,10 @@ app.get('/potencia/:n1/:n2', (req, res) => {
         })
 })
 
+app.get('/raizquadrada/:n1', (req, res) => {
+    return res.json({
+        resultado: calc.raiz(req.params.n1)
+    })
+})
+
 module.exports = app
