@@ -33,6 +33,7 @@ Ela retorna resultados com os valores passados por parâmetro
  ### Potência
  ```md
  http://localhost/raizquadrada/:n1
+ ```
  ## Depedencias
 
  `Express` 
