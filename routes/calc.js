@@ -36,7 +36,13 @@ app.get('/potencia/:n1/:n2', (req, res) => {
 
 app.get('/raizquadrada/:n1', (req, res) => {
     return res.json({
-        resultado: calc.raiz(req.params.n1)
+        resultado: calc.raizQua(req.params.n1)
+    })
+})
+
+app.get('/raizcubica/:n1', (req, res) =>{
+    return res.json({
+        resultado: calc.raizCub(req.params.n1)
     })
 })
 
