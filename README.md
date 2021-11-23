@@ -18,7 +18,7 @@ Ela retorna resultados com os valores passados por parâmetro
  ```md
  http://localhost/soma/:n1/:n2
  ```
-### MUltiplicação
+### Multiplicação
  ```md
  http://localhost/multiplicacao/:n1/:n2
  ```
@@ -34,7 +34,7 @@ Ela retorna resultados com os valores passados por parâmetro
  ```md
  http://localhost/raizquadrada/:n1
  ```
- ## Depedencias
+ ## Depedncias
 
  `Express` 
  * Use: 
