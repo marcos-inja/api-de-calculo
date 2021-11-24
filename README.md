@@ -10,7 +10,7 @@ Ela retorna resultados com os valores passados por parâmetro
 ## Todos os parâmetros
 |Operação|URL|
 |-|-|
-|Subtração|`http://localhost/subtracao/:n1/:n2`|
+|Subtração|```http://localhost/subtracao/:n1/:n2```|
 |Soma|`http://localhost/soma/:n1/:n2`|
 |Multiplicação|`http://localhost/multiplicacao/:n1/:n2`|
 |Divisão|`http://localhost/divisao/:n1/:n2`|
