@@ -25,7 +25,7 @@ Ela retorna resultados com os valores passados por parâmetro
   ```
  ## Para rodar
 
-- Ter o `node` instalado
+- Ter o [**node**](https://nodejs.org/en/) instalado
 - Instalar as dependências
 - Entrar na pasta do projeto via terminal e digitar o comando `node index.js`
 
