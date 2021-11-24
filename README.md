@@ -48,5 +48,9 @@ Ela retorna resultados com os valores passados por parâmetro
 - Ter o `node` instalado
 - Instalar as dependencias 
 - Entrar na pasta do projeto via terminal e digitar o comando `node index.js`
+
+## Como rodar os testes
+use:
+- `npm run test`
  
  
