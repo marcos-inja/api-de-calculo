@@ -1,4 +1,4 @@
-# API para calculos simples!
+# API para cálculos simples!
 
 ## O que é?
 **API** que retorna o resultado de uma operação matemática de acordo com os valores passados por parâmetro.
@@ -20,14 +20,17 @@
 
  ## Depedências
  Use o comando abaixo para instalar todas as dependicias do projeto: 
-  ```md
-  npm install
-  ```
+    ```md
+    npm install
+    ```
  ## Para rodar
 
 - Ter o [**node**](https://nodejs.org/en/) instalado
 - Instalar as dependências
-- Entrar na pasta do projeto via terminal e digitar o comando `node index.js`
+- Entrar na pasta do projeto via terminal e digitar o comando:
+ ````md
+ node index.js
+ ````
 
 ## Como rodar os testes
 Use:
