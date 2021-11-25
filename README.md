@@ -1,7 +1,7 @@
 # API para calculos simples!
 
 ## O que é?
-Ela retorna resultados com os valores passados por parâmetro
+**API** que retorna o resultado de uma operação matemática de acordo com os valores passados por parâmetro.
 
 ### Exemplo: 
 ```md
@@ -16,7 +16,7 @@ Ela retorna resultados com os valores passados por parâmetro
 |Divisão|`http://localhost/divisao/:n1/:n2`|
 |Potência|`http://localhost/potencia/:n1/:n2`|
 |Raiz quadrada|`http://localhost/raizquadrada/:n1`|
-|Raiz cubica|`http://localhost/raizcubica/:n1`|
+|Raiz cúbica|`http://localhost/raizcubica/:n1`|
 
  ## Depedências
  Use o comando abaixo para instalar todas as dependicias do projeto: 
