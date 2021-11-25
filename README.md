@@ -20,17 +20,17 @@
 
  ## Depedências
  Use o comando abaixo para instalar todas as dependicias do projeto: 
-    ```md
-    npm install
-    ```
+```md
+npm install
+```
  ## Para rodar
 
 - Ter o [**node**](https://nodejs.org/en/) instalado
 - Instalar as dependências
 - Entrar na pasta do projeto via terminal e digitar o comando:
- ````md
+ ```md
  node index.js
- ````
+ ```
 
 ## Como rodar os testes
 Use:
