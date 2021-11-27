@@ -3,7 +3,7 @@
 ## O que é?
 **API** que retorna o resultado de uma operação matemática de acordo com os valores passados por parâmetro.
 
-### Exemplo: 
+### Exemplo de URL: 
 ```md
  http://localhost/subtracao/2/2
  ```
