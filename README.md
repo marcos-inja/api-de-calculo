@@ -19,7 +19,7 @@
 |Raiz cúbica|`http://localhost/raizcubica/:n1`|
 
  ## Depedências
- Use o comando abaixo para instalar todas as dependicias do projeto: 
+ Use o comando abaixo, para instalar todas as dependências do projeto: 
 ```md
 npm install
 ```
